@@ -1,0 +1,50 @@
+[
+  {
+    "fare_id": "Z2",
+    "price": 1.4,
+    "currency_type": "EUR",
+    "payment_method": 1,
+    "transfers": "",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "Z3",
+    "price": 1.8,
+    "currency_type": "EUR",
+    "payment_method": 1,
+    "transfers": "",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "Z4",
+    "price": 2.25,
+    "currency_type": "EUR",
+    "payment_method": 1,
+    "transfers": "",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "Z5",
+    "price": 2.75,
+    "currency_type": "EUR",
+    "payment_method": 1,
+    "transfers": "",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "Z6",
+    "price": 3.2,
+    "currency_type": "EUR",
+    "payment_method": 1,
+    "transfers": "",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "Z7",
+    "price": 3.65,
+    "currency_type": "EUR",
+    "payment_method": 1,
+    "transfers": "",
+    "transfer_duration": ""
+  }
+]

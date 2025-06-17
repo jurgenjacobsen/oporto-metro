@@ -1,0 +1,1052 @@
+﻿[
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "B",
+    "origin_id": "VCD8",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "B",
+    "origin_id": "VCD8",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "B",
+    "origin_id": "VCD3",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "B",
+    "origin_id": "VCD3",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "B",
+    "origin_id": "PV_VC",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "B",
+    "origin_id": "PV_VC",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z6",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z6",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z6",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z6",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z6",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z6",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "Bexp",
+    "origin_id": "VCD8",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "Bexp",
+    "origin_id": "VCD8",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "Bexp",
+    "origin_id": "VCD3",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "Bexp",
+    "origin_id": "VCD3",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "Bexp",
+    "origin_id": "PV_VC",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "Bexp",
+    "origin_id": "PV_VC",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "PRT1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "PRT2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "PRT3"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "VNG1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "MTS1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "MAI1"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "GDM1"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "MAI4"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "VCD8"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "MAI2"
+  },
+  {
+    "fare_id": "Z6",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "VCD3"
+  },
+  {
+    "fare_id": "Z7",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "PV_VC"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VNG2",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT1",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT2",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "PRT3",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z2",
+    "route_id": "",
+    "origin_id": "VNG1",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MTS1",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MAI1",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z3",
+    "route_id": "",
+    "origin_id": "GDM1",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z4",
+    "route_id": "",
+    "origin_id": "MAI4",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "VCD8",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z5",
+    "route_id": "",
+    "origin_id": "MAI2",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z6",
+    "route_id": "",
+    "origin_id": "VCD3",
+    "destination_id": "VNG2"
+  },
+  {
+    "fare_id": "Z7",
+    "route_id": "",
+    "origin_id": "PV_VC",
+    "destination_id": "VNG2"
+  }
+]

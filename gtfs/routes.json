@@ -1,0 +1,79 @@
+[
+  {
+    "route_id": "A",
+    "agency_id": "",
+    "route_short_name": "A",
+    "route_long_name": "-",
+    "route_desc": "",
+    "route_type": 1,
+    "route_url": "",
+    "route_color": "199FDA",
+    "route_text_color": "FFFFFF"
+  },
+  {
+    "route_id": "B",
+    "agency_id": "",
+    "route_short_name": "B",
+    "route_long_name": "-",
+    "route_desc": "",
+    "route_type": 1,
+    "route_url": "",
+    "route_color": "C63920",
+    "route_text_color": "FFFFFF"
+  },
+  {
+    "route_id": "Bexp",
+    "agency_id": "",
+    "route_short_name": "Bx",
+    "route_long_name": "-",
+    "route_desc": "",
+    "route_type": 1,
+    "route_url": "",
+    "route_color": "C63920",
+    "route_text_color": "FFFFFF"
+  },
+  {
+    "route_id": "C",
+    "agency_id": "",
+    "route_short_name": "C",
+    "route_long_name": "-",
+    "route_desc": "",
+    "route_type": 1,
+    "route_url": "",
+    "route_color": "A3BE31",
+    "route_text_color": "FFFFFF"
+  },
+  {
+    "route_id": "D",
+    "agency_id": "",
+    "route_short_name": "D",
+    "route_long_name": "-",
+    "route_desc": "",
+    "route_type": 1,
+    "route_url": "",
+    "route_color": "EBBC14",
+    "route_text_color": "FFFFFF"
+  },
+  {
+    "route_id": "E",
+    "agency_id": "",
+    "route_short_name": "E",
+    "route_long_name": "-",
+    "route_desc": "",
+    "route_type": 1,
+    "route_url": "",
+    "route_color": "736EB0",
+    "route_text_color": "FFFFFF"
+  },
+  {
+    "route_id": "F",
+    "agency_id": "",
+    "route_short_name": "F",
+    "route_long_name": "-",
+    "route_desc": "",
+    "route_type": 1,
+    "route_url": "",
+    "route_color": "EE731C",
+    "route_text_color": "FFFFFF"
+  }
+]
