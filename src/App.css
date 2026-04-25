@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+/* Smooth transition for Leaflet markers */
+.leaflet-marker-pane > * {
+  transition: transform 1s linear;
+}
+
+.vehicle-marker-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+}
+
+.leaflet-zoom-anim .leaflet-zoom-animated {
+  transition: transform 0.25s cubic-bezier(0,0,0.25,1);
+}
+
+/* Hide default leaflet attribution for cleaner look on small screens */
+.leaflet-control-attribution {
+  font-size: 8px !important;
+}
