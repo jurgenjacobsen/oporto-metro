@@ -1,11 +1,59 @@
 import { useEffect, useState } from 'react';
-import { MapContainer, TileLayer, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, useMap, Marker, Circle, useMapEvents } from 'react-leaflet';
 import { useMetroSystem, useVehicleTracking, useArrivals } from './Metro';
 import L from 'leaflet';
 
 import 'leaflet/dist/leaflet.css';
 import './App.css';
 import { GithubIcon } from './Metro/components/GithubIcon';
+
+// Custom User Location Icon
+const userLocationIcon = L.divIcon({
+  className: 'user-location-marker',
+  html: '<div class="user-location-dot"></div>',
+  iconSize: [20, 20],
+  iconAnchor: [10, 10],
+});
+
+function LocationManager({ active, onDeactivate }: { active: boolean, onDeactivate: () => void }) {
+  const [position, setPosition] = useState<L.LatLng | null>(null);
+  const [accuracy, setAccuracy] = useState<number>(0);
+  const map = useMapEvents({
+    locationfound(e) {
+      setPosition(e.latlng);
+      setAccuracy(e.accuracy);
+      if (active) {
+        map.flyTo(e.latlng, map.getZoom());
+      }
+    },
+    locationerror(e) {
+      console.error("Location error:", e.message);
+      onDeactivate();
+    }
+  });
+
+  useEffect(() => {
+    if (active) {
+      map.locate({ setView: false, watch: true });
+    } else {
+      map.stopLocate();
+      setPosition(null);
+    }
+  }, [active, map]);
+
+  if (!active || !position) return null;
+
+  return (
+    <>
+      <Circle
+        center={position}
+        radius={accuracy}
+        pathOptions={{ color: '#3b82f6', fillColor: '#3b82f6', fillOpacity: 0.1, weight: 1 }}
+      />
+      <Marker position={position} icon={userLocationIcon} />
+    </>
+  );
+}
 
 function MetroLayer({ onStopClick, onDataLoaded, onVehicleClick, onMapClick, followingVehicleId }: { 
   onStopClick: (stop: any) => void, 
@@ -85,8 +133,20 @@ export default function App() {
   const [selectedStop, setSelectedStop] = useState<any>(null);
   const [gtfsData, setGtfsData] = useState<any>(null);
   const [followingVehicle, setFollowingVehicle] = useState<any>(null);
+  const [showLocation, setShowLocation] = useState(false);
   
   const arrivals = useArrivals(gtfsData, selectedStop?.stop_id);
+
+  useEffect(() => {
+    // Check if permission was already granted to enable automatically
+    if ("permissions" in navigator) {
+      navigator.permissions.query({ name: 'geolocation' as PermissionName }).then((result) => {
+        if (result.state === 'granted') {
+          setShowLocation(true);
+        }
+      });
+    }
+  }, []);
 
   // Bounds covering Porto Metropolitan Area
   const METRO_BOUNDS: L.LatLngBoundsExpression = [
@@ -118,8 +178,21 @@ export default function App() {
             onMapClick={() => { setFollowingVehicle(null); }}
             followingVehicleId={followingVehicle?.id || null}
           />
+          <LocationManager active={showLocation} onDeactivate={() => setShowLocation(false)} />
           {followingVehicle && <FollowManager vehicleId={followingVehicle.id} />}
         </MapContainer>
+
+        <button
+          onClick={() => setShowLocation(!showLocation)}
+          className={`absolute bottom-20 right-4 z-[1000] p-3 rounded-full shadow-lg transition-all ${
+            showLocation ? 'bg-blue-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'
+          }`}
+          title={showLocation ? "Hide My Location" : "Show My Location"}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/>
+          </svg>
+        </button>
 
         {followingVehicle && (
           <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg flex items-center gap-3">
@@ -204,9 +277,8 @@ export default function App() {
         </div>
       )}
 
-      
-      <div className={`absolute bottom-4 left-1/2 -translate-x-1/2 space-x-2 z-1000 items-center justify-center flex ${selectedStop ? 'hidden md:flex' : 'flex'} w-full`}>
-        <div className="text-xs  text-gray-400 p-2 rounded-full bg-gray-50 border-gray-200 shadow-sm">
+      <div className={`absolute bottom-4 left-1/2 -translate-x-1/2 space-x-2 z-[1000] items-center justify-center flex ${selectedStop ? 'hidden md:flex' : 'flex'} w-full`}>
+        <div className="text-xs text-gray-400 p-2 rounded-full bg-gray-50 border border-gray-200 shadow-sm">
           Made with ❤️ by <a href="https://github.com/jurgenjacobsen" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Jürgen Jacobsen</a>
         </div>
 
